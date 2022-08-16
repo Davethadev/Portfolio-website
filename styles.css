@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: hsl(223, 47%, 23%);
+}
+
+#navbar {
+    background-color: hsl(224, 23%, 45%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 0.2rem;
+    padding: 0.5rem 0;
+}
+
+a:hover {
+    background-color: hsl(225, 100%, 74%);
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(223, 47%, 23%);
+    color: #fff;
+}
+
+#welcome-section h1,
+#welcome-section p {
+    margin: 0;
+}
+
+#welcome-section p {
+    font-style: italic;
+    color: hsl(225, 100%, 94%);
+}
+
+#projects {
+    height: 100vh;
+    background-color: hsl(224, 23%, 55%);
+    color: #fff;
+    text-align: center;
+}
+
+#projects .projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projects h1 {
+    padding-top: 1rem;
+}
+
+#projects .project-tile {
+    width: 120px;
+    height: auto;
+    margin: 2rem;
+    background-color: hsl(223, 47%, 23%);
+    color: #fff;
+}
+
+.projects-wrapper .project-tile p {
+    margin: 0;
+    padding: 0;
+}
+
+#projects .project-tile a img {
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+}
+
+#contact {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(225, 100%, 74%);
+    color: #fff;
+}
+
+#contact .contact-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1rem;
+}
+
+#contact .contact-links a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#contact .contact-links .profile-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+#contact .contact-links .github-img,
+#contact .contact-links .facebook-img,
+#contact .contact-links .twitter-img,
+#contact .contact-links .instagram-img {
+    width: 15px;
+}
+
+#contact .contact-links .github-img img,
+#contact .contact-links .facebook-img img,
+#contact .contact-links .twitter-img img,
+#contact .contact-links .instagram-img img {
+    width: 100%;
+}
+
+#contact p,
+#contact h1 {
+    margin: 0;
+}
+
+#contact p {
+    font-size: 0.8rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+}
